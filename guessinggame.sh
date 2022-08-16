@@ -1,6 +1,7 @@
 
 -----my guessingame function--------------------
 #!/bin/bash
+
 function guessinggame {
 
     num=$(find | wc -l)       
@@ -21,7 +22,7 @@ function guessinggame {
         then
              echo "This is too high. Please guess again."
         else
-            echo "Congratulations! You guessed it."
+            echo "Congratulations! It is the correct answer."
             break
         fi
 

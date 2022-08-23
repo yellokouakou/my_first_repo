@@ -1,5 +1,4 @@
 
------my guessingame function--------------------
 #!/bin/bash
 
 function guessinggame {
@@ -33,4 +32,4 @@ function guessinggame {
 
 }
 
-guessinggame
+    guessinggame 
